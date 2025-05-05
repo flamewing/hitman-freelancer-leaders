@@ -33,9 +33,9 @@ function update() {
         var image = hair_icons[i];
         var hair_match = image.getAttribute("data-hair") == hair;
         if (hair_match) {
-            image.style.display = "block";
+            image.style = "opacity: 1;";
         } else {
-            image.style.display = "none";
+            image.style = "opacity: 0;";
         }
     }
 }

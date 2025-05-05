@@ -132,13 +132,19 @@ a.custom:hover {
     padding-left: 0em;
 }
 
-.hair-icon {
+.hair-container {
     position: relative;
     display: inline-block;
     width: 4em;
     height: 4em;
     padding-right: 1em;
     padding-left: 0em;
+}
+
+.hair-icon {
+    position: absolute;
+    display: block;
+    transition: all .4s ease;
 }
 
 /* The switch - the box around the slider */
