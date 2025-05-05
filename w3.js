@@ -243,6 +243,7 @@ w3.includeHTML = function (cb) {
                     if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
                     elmnt.removeAttribute("w3-include-html");
                     w3.includeHTML(cb);
+                    if (cb) cb();
                 }
             }
             xhttp.open("GET", file, true);
@@ -250,7 +251,6 @@ w3.includeHTML = function (cb) {
             return;
         }
     }
-    if (cb) cb();
 };
 w3.getHttpData = function (file, func) {
     w3.http(file, function () {
