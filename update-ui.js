@@ -27,4 +27,15 @@ function update() {
             image.style = "width: 0; margin: 0 0; opacity: 0; border-width: 0em;";
         }
     }
+    var hair_icons = document.getElementsByClassName("hair-icon");
+    console.log(hair_icons.length);
+    for (var i = 0; i < hair_icons.length; i++) {
+        var image = hair_icons[i];
+        var hair_match = image.getAttribute("data-hair") == hair;
+        if (hair_match) {
+            image.style.display = "block";
+        } else {
+            image.style.display = "none";
+        }
+    }
 }
