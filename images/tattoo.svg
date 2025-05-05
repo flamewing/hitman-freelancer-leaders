@@ -1,12 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="187.8mm" height="187.8mm" ml-update="aware" version="1.1" viewBox="0 0 187.8 187.8" xmlns="http://www.w3.org/2000/svg">
- <rect x="4.9687" y="4.9687" width="177.86" height="177.86" ry="15.341" stroke="#fff" stroke-linecap="round" stroke-width="9.9374"/>
- <g transform="matrix(1.6478 0 0 1.6478 93.9 93.9)">
-  <circle cx="5.9501e-7" cy="5.9501e-7" r="40.964" fill="#fff" stroke-width="1.0504"/>
-  <g transform="matrix(.9731 0 0 .9731 -.25538 4.8262e-7)">
-   <path d="m0 38a38 38 0 0 1 0-76 19 19 0 0 1 0 38 19 19 0 0 0 0 38"/>
-   <circle cy="19" r="5"/>
-   <circle cy="-19" r="5" fill="#fff"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="187.79739mm"
+   height="187.79739mm"
+   ml-update="aware"
+   version="1.1"
+   viewBox="0 0 187.79739 187.79739"
+   id="svg4"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <rect
+     x="4.9686999"
+     y="4.9686999"
+     width="177.86"
+     height="177.86"
+     ry="15.341"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-width="9.9374"
+     id="rect1" />
+  <g
+     transform="matrix(1.6478,0,0,1.6478,93.9,93.9)"
+     id="g4">
+    <circle
+       cx="5.9501002e-07"
+       cy="5.9501002e-07"
+       r="40.964001"
+       fill="#ffffff"
+       stroke-width="1.0504"
+       id="circle1" />
+    <path
+       d="m -0.25538,36.9778 a 36.9778,36.9778 0 0 1 0,-73.9556 18.4889,18.4889 0 0 1 0,36.97780048262001 A 18.4889,18.4889 0 0 0 -0.25538,36.9778"
+       id="path1"
+       style="stroke-width:0.9731" />
+    <circle
+       cy="18.478577"
+       id="circle2"
+       cx="-0.26580888"
+       style="stroke-width:1.57786"
+       r="7.889307" />
+    <circle
+       cy="-18.49921"
+       fill="#ffffff"
+       id="circle3"
+       cx="-0.26580888"
+       style="stroke-width:1.57786"
+       r="7.889307" />
   </g>
- </g>
 </svg>
