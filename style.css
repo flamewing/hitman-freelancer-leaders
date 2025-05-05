@@ -333,6 +333,7 @@ input:checked+.slider:before {
 }
 
 .leader {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -343,6 +344,26 @@ input:checked+.slider:before {
     transition: width .4s, margin .4s, opacity .4s, border-width .4s;
     border: white solid var(--border-width);
     border-radius: 0.4em;
+}
+
+.leader-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    font: 150% "Source Sans Pro";
+    font-weight: bolder;
+    opacity: 1;
+    color: white;
+    padding: .15em .5em;
+    text-align: center;
+    border-radius: 1em;
 }
 
 .justified-grid-gallery {
