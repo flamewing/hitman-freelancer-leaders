@@ -7,16 +7,16 @@
     <link rel="icon" href="favicon.svg">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="overlay.css">
-    <script src="w3.js"></script>
-    <script src="update-ui.js"></script>
+    <script type="text/javascript" src="w3.js"></script>
+    <script type="text/javascript" src="update-ui.js"></script>
 </head>
 
 <body>
     <div w3-include-html="content.html"></div>
 
-    <script>
+    <script type="text/javascript">
         w3.includeHTML();
-        setup();
+        window.onload = setup;
     </script>
 </body>
 

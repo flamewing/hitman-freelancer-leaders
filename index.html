@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
-    <script src="w3.js"></script>
-    <script src="update-ui.js"></script>
+    <script type="text/javascript" src="w3.js"></script>
+    <script type="text/javascript" src="update-ui.js"></script>
 </head>
 
 <body>
@@ -38,9 +38,9 @@
 
     <div w3-include-html="content.html"></div>
 
-    <script>
+    <script type="text/javascript">
         w3.includeHTML();
-        setup();
+        window.onload = setup;
     </script>
 
     <div class="collapsible">
