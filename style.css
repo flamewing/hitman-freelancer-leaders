@@ -327,19 +327,22 @@ input:checked+.slider:before {
 
 .justified-grid-gallery {
     --space: .1425em;
+    --border-width: 0.2em;
     --max-canvas-width: calc(100vw - 2em - var(--scrollbar-width));
-    --leader-image-width: min(22em, calc((var(--max-canvas-width) - 8 * var(--space)) / 4));
+    --leader-image-width: min(22em, calc((var(--max-canvas-width) - 8 * var(--space) - 8 * var(--border-width)) / 4));
 }
 
 .leader {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: var(--leader-image-width);
-    height: var(--leader-image-width);
-    margin: 0 var(--space);
+    width: calc(var(--leader-image-width) - var(--border-width) * 2);
+    height: calc(var(--leader-image-width) - var(--border-width) * 2);
+    margin: var(--space) var(--space);
     opacity: 1;
-    transition: width .4s, margin .4s, opacity .4s;
+    transition: width .4s, margin .4s, opacity .4s, border-width .4s;
+    border: white solid var(--border-width);
+    border-radius: 0.4em;
 }
 
 .justified-grid-gallery {
