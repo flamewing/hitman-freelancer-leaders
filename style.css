@@ -67,12 +67,12 @@ a.custom:hover {
 }
 
 .toggle-row {
-    width: 50em;
+    width: 48.5em;
     max-width: 100%;
 }
 
 .toggle-row2 {
-    width: 50em;
+    width: 36.75em;
     max-width: 100%;
 }
 
@@ -142,9 +142,10 @@ a.custom:hover {
 }
 
 .hair-icon {
-    position: absolute;
-    display: block;
-    transition: all .4s ease;
+    position: relative;
+    display: inline-block;
+    width: 2.675em;
+    height: 2.675em;
 }
 
 /* The switch - the box around the slider */
@@ -214,15 +215,15 @@ input:checked+.slider:before {
 
 .toggle_radio {
     position: relative;
-    background-color: #ccc;
+    background-color: #222;
     margin: .285em auto;
     overflow: hidden;
     padding: 0 !important;
-    -webkit-border-radius: 3.5em;
-    border-radius: 3.5em;
+    -webkit-border-radius: .7em;
+    border-radius: .7em;
     position: relative;
-    height: 2.4em;
-    width: 42.75em;
+    height: 7em;
+    width: 36.75em;
 }
 
 .toggle_radio>* {
@@ -238,23 +239,21 @@ input:checked+.slider:before {
     font-weight: bolder;
     z-index: 0;
     display: block;
-    width: 3.75em;
-    height: 1.35em;
-    margin: .15em .15em;
-    -webkit-border-radius: 2.4em;
-    border-radius: 2.4em;
+    width: 3.5em;
+    height: 4em;
+    /* margin: .15em; */
     cursor: pointer;
     z-index: 1;
     text-align: center;
 }
 
 .toggle_option_slider {
-    width: 5.75em;
-    height: 1.85em;
+    width: 4.75em;
+    height: 6.5em;
     position: absolute;
     top: .285em;
-    -webkit-border-radius: 2.4em;
-    border-radius: 2.4em;
+    -webkit-border-radius: .5em;
+    border-radius: .5em;
     -webkit-transition: all .4s ease;
     -o-transition: all .4s ease;
     -ms-transition: all .4s ease;
@@ -262,81 +261,49 @@ input:checked+.slider:before {
 }
 
 .label {
-    width: 7.15em;
+    width: 4.75em;
+    margin: .2em 0;
 }
 
-.label_any {
+.label_plain {
     color: white;
-    text-shadow: black .07em 0 .7em;
-}
-
-.label_black {
-    color: #3d3d3d;
-    text-shadow: #676767 .07em 0 .7em;
-}
-
-.label_blonde {
-    color: #fed883;
-    text-shadow: black .07em 0 .7em;
-}
-
-.label_brown {
-    color: #7f3201;
-    text-shadow: #014e7f .07em 0 .7em;
-}
-
-.label_gray {
-    color: #808080;
-    text-shadow: white .07em 0 .7em;
-}
-
-.label_red {
-    color: #ff6a01;
-    text-shadow: #0196ff .07em 0 .7em;
-}
-
-.label_bald {
-    color: white;
-    text-shadow: black .07em 0 .7em;
+    text-shadow: none;
 }
 
 .toggle_option_slider {
     --start-position: .285em;
-    --delta: 6.075em;
+    --border-width: 0.25em;
+    --delta: calc(4.75em + var(--border-width) * 2);
+    margin: calc(var(--border-width) * -1);
+    border: var(--border-width) solid white;
 }
 
 #any:checked~.toggle_option_slider {
-    background: white;
+    /* background: white; */
     left: calc(var(--start-position) + 0 * var(--delta));
 }
 
 #black:checked~.toggle_option_slider {
-    background: #3d3d3d;
     left: calc(var(--start-position) + 1 * var(--delta));
 }
 
 #blonde:checked~.toggle_option_slider {
-    background: #fed883;
     left: calc(var(--start-position) + 2 * var(--delta));
 }
 
 #brown:checked~.toggle_option_slider {
-    background: #7f3201;
     left: calc(var(--start-position) + 3 * var(--delta));
 }
 
 #gray:checked~.toggle_option_slider {
-    background: #808080;
     left: calc(var(--start-position) + 4 * var(--delta));
 }
 
 #red:checked~.toggle_option_slider {
-    background: #ff6a01;
     left: calc(var(--start-position) + 5 * var(--delta));
 }
 
 #bald:checked~.toggle_option_slider {
-    background: white;
     left: calc(var(--start-position) + 6 * var(--delta));
 }
 

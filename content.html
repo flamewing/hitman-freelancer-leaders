@@ -37,22 +37,6 @@
 </div>
 <div class="content-row toggle-row2">
     <div class="container">
-        <div class="hair-container">
-            <div class="hair-icon" data-hair="any" title="any hair"><img class="icon" src="images/hair.svg" width="50"
-                    height="50"></div>
-            <div class="hair-icon" data-hair="black" title="black hair"><img class="icon" src="images/hair-black.svg"
-                    width="50" height="50"></div>
-            <div class="hair-icon" data-hair="blonde" title="blonde hair"><img class="icon" src="images/hair-blonde.svg"
-                    width="50" height="50"></div>
-            <div class="hair-icon" data-hair="brown" title="brown hair"><img class="icon" src="images/hair-brown.svg"
-                    width="50" height="50"></div>
-            <div class="hair-icon" data-hair="gray" title="gray hair"><img class="icon" src="images/hair-gray.svg"
-                    width="50" height="50"></div>
-            <div class="hair-icon" data-hair="bald" title="bald" w><img class="icon" src="images/hair-bald.svg"
-                    idth="50" height="50"></div>
-            <div class="hair-icon" data-hair="red" title="red hair"><img class="icon" src="images/hair-red.svg"
-                    width="50" height="50"></div>
-        </div>
         <div class="wrapper">
             <div class="toggle_radio">
                 <input type="radio" onchange="update()" checked class="toggle_option" id="any" name="toggle_option">
@@ -62,13 +46,34 @@
                 <input type="radio" onchange="update()" class="toggle_option" id="gray" name="toggle_option">
                 <input type="radio" onchange="update()" class="toggle_option" id="red" name="toggle_option">
                 <input type="radio" onchange="update()" class="toggle_option" id="bald" name="toggle_option">
-                <label for="any" class="label label_any">Any</label>
-                <label for="black" class="label label_black">Black</label>
-                <label for="blonde" class="label label_blonde">Blonde</label>
-                <label for="brown" class="label label_brown">Brown</label>
-                <label for="gray" class="label label_gray">Gray</label>
-                <label for="red" class="label label_red">Red</label>
-                <label for="bald" class="label label_bald">Bald</label>
+                <label for="any" class="label"><span>
+                        <img class="hair-icon" src="images/hair.svg" width="50" height="50">
+                        <span class="label_plain">Any</span>
+                    </span></label>
+                <label for="black" class="label"><span>
+                        <img class="hair-icon" src="images/hair-black.svg" width="50" height="50">
+                        <span class="label_plain">Black</span>
+                    </span></label>
+                <label for="blonde" class="label"><span>
+                        <img class="hair-icon" src="images/hair-blonde.svg" width="50" height="50">
+                        <span class="label_plain">Blonde</span>
+                    </span></label>
+                <label for="brown" class="label"><span>
+                        <img class="hair-icon" src="images/hair-brown.svg" width="50" height="50">
+                        <span class="label_plain">Brown</span>
+                    </span></label>
+                <label for="gray" class="label"><span>
+                        <img class="hair-icon" src="images/hair-gray.svg" width="50" height="50">
+                        <span class="label_plain">Gray</span>
+                    </span></label>
+                <label for="red" class="label"><span>
+                        <img class="hair-icon" src="images/hair-red.svg" width="50" height="50">
+                        <span class="label_plain">Red</span>
+                    </span></label>
+                <label for="bald" class="label"><span>
+                        <img class="hair-icon" src="images/hair-bald.svg" idth="50" height="50">
+                        <span class="label_plain">Bald</span>
+                    </span></label>
                 <div class="toggle_option_slider">
                 </div>
             </div>
