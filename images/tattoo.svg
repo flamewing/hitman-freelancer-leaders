@@ -1,10 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="187.8mm" height="187.8mm" ml-update="aware" version="1.1" viewBox="0 0 187.8 187.8" xmlns="http://www.w3.org/2000/svg">
- <rect x="4.9687" y="4.9687" width="177.86" height="177.86" ry="15.341" stroke="#fff" stroke-linecap="round" stroke-width="9.9374"/>
- <g transform="matrix(1.6478,0,0,1.6478,93.9,93.9)">
-  <circle cx="5.9501e-7" cy="5.9501e-7" r="40.964" fill="#fff" stroke-width="1.0504"/>
-  <path d="m-.25538 36.978a36.978 36.978 0 010-73.956 18.489 18.489 0 010 36.978 18.489 18.489 0 000 36.978" stroke-width=".9731"/>
-  <circle cx="-.26581" cy="18.479" r="7.8893" stroke-width="1.5779"/>
-  <circle cx="-.26581" cy="-18.499" r="7.8893" fill="#fff" stroke-width="1.5779"/>
- </g>
-</svg>
+<svg width="187.8mm" height="187.8mm" ml-update="aware" version="1.1" viewBox="0 0 187.8 187.8" xmlns="http://www.w3.org/2000/svg"><rect x="4.9687" y="4.9687" width="177.86" height="177.86" ry="15.341" stroke="#fff" stroke-linecap="round" stroke-width="9.9374"/><g transform="matrix(1.6478,0,0,1.6478,93.9,93.9)"><circle cx="5.9501e-7" cy="5.9501e-7" r="40.964" fill="#fff" stroke-width="1.0504"/><path d="m-.25538 36.978a36.978 36.978 0 010-73.956 18.489 18.489 0 010 36.978 18.489 18.489 0 000 36.978" stroke-width=".9731"/><circle cx="-.26581" cy="18.479" r="7.8893" stroke-width="1.5779"/><circle cx="-.26581" cy="-18.499" r="7.8893" fill="#fff" stroke-width="1.5779"/></g></svg>
