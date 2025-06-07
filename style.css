@@ -318,6 +318,7 @@ input:focus+.slider {
 
     .justified-grid-gallery {
         --num-leaders-per-row: 4;
+        --leader-image-width: min(22em, calc((var(--max-canvas-width) - 2 * var(--num-leaders-per-row) * var(--space) - 2 * var(--num-leaders-per-row) * var(--border-width)) / var(--num-leaders-per-row)));
     }
 }
 
@@ -359,6 +360,7 @@ input:focus+.slider {
 
     .justified-grid-gallery {
         --num-leaders-per-row: 2;
+        --leader-image-width: calc((var(--max-canvas-width) - 2 * var(--num-leaders-per-row) * var(--space) - 2 * var(--num-leaders-per-row) * var(--border-width)) / var(--num-leaders-per-row));
     }
 }
 
@@ -366,7 +368,6 @@ input:focus+.slider {
     --space: .1425em;
     --border-width: 0.2em;
     --max-canvas-width: calc(100vw - 2em - var(--scrollbar-width));
-    --leader-image-width: calc((var(--max-canvas-width) - 2 * var(--num-leaders-per-row) * var(--space) - 2 * var(--num-leaders-per-row) * var(--border-width)) / var(--num-leaders-per-row));
 }
 
 .leader {
