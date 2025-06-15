@@ -414,7 +414,7 @@ input:focus+.slider {
     width: var(--max-canvas-width);
 }
 
-.drop {
+summary {
     cursor: pointer;
     display: block;
     text-align: right;
@@ -427,20 +427,12 @@ input[type="checkbox"] {
     display: none;
 }
 
-input+.drop+div {
-    display: none;
+summary:after {
+    content: 'Expand ▼';
 }
 
-.drop:after {
-    content: ' ▼';
-}
-
-:checked+.drop:after {
-    content: ' ▲';
-}
-
-input:checked+.drop+div {
-    display: block;
+details[open]>summary:after {
+    content: 'Collapse ▲';
 }
 
 .collapsible {
