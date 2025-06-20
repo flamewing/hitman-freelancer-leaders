@@ -88,7 +88,6 @@ a.custom:hover {
     text-align: center;
     display: block;
     font-size: 140%;
-    line-height: 2em;
 }
 
 .logo-centered {
@@ -99,23 +98,12 @@ a.custom:hover {
     vertical-align: middle;
     letter-spacing: .35em;
     text-shadow: .025em .075em .025em black;
-    line-height: 1.1em;
-}
-
-.logo-bracket {
-    font-family: "Iceland", sans-serif;
-    font-weight: 100;
-    font-size: .75em;
-    text-align: center;
-    vertical-align: bottom;
-    text-shadow: .025em .075em .025em black;
-    display: inline-block;
-    line-height: .7em;
 }
 
 .logo-hitman {
     margin: auto;
     text-align: center;
+    display: block;
 }
 
 .icon {
