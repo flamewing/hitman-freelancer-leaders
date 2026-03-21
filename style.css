@@ -66,6 +66,26 @@ a.custom:hover {
     display: inline-flex;
 }
 
+.container:has(#earrings) {
+    order: 1;
+}
+
+.container:has(#glasses) {
+    order: 0;
+}
+
+.container:has(#hat) {
+    order: 2;
+}
+
+.container:has(#necklace) {
+    order: 3;
+}
+
+.container:has(#tattoo) {
+    order: 4;
+}
+
 .toggle-row {
     max-width: 100%;
 }
