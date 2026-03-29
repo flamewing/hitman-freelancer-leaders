@@ -75,11 +75,11 @@ a.custom:hover {
 }
 
 .container:has(#hat) {
-    order: 2;
+    order: 3;
 }
 
 .container:has(#necklace) {
-    order: 3;
+    order: 2;
 }
 
 .container:has(#tattoo) {
